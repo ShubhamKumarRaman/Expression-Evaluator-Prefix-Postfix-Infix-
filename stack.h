@@ -5,7 +5,6 @@
 #include <stdlib.h>
 #include <string.h>
 #include <ctype.h>
-#include <unistd.h>
 
 #define MAX_SIZE 100
 
@@ -36,4 +35,4 @@ int evaluatePrefix(char *prefix);
 int getPrecedence(char op);
 int isOperator(char ch);
 
-#endif 
+#endif

@@ -1,4 +1,5 @@
 #include "stack.h"
+#include <windows.h>
 
 void initStack(Stack *s) {
     s->top = -1;
@@ -54,5 +55,35 @@ void clearScreen() {
 }
 
 void pause() {
-    sleep(2);  // Pause for 2 seconds
-} 
+    Sleep(2000);  // Pause for 2 seconds (2000 milliseconds)
+}
+
+void infixToPostfix(char *infix, char *postfix) {
+    // TODO: Implement this function
+    postfix[0] = '\0';
+}
+
+void infixToPrefix(char *infix, char *prefix) {
+    // TODO: Implement this function
+    prefix[0] = '\0';
+}
+
+void postfixToPrefix(char *postfix, char *prefix) {
+    // TODO: Implement this function
+    prefix[0] = '\0';
+}
+
+void prefixToPostfix(char *prefix, char *postfix) {
+    // TODO: Implement this function
+    postfix[0] = '\0';
+}
+
+int evaluatePostfix(char *postfix) {
+    // TODO: Implement this function
+    return 0;
+}
+
+int evaluatePrefix(char *prefix) {
+    // TODO: Implement this function
+    return 0;
+}
